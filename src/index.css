@@ -1,13 +1,120 @@
+/** @format */
+
+.alert p {
+  margin-bottom: 0 !important;
+}
 body {
+  background-image: url("./img/bg-01.png");
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: sans-serif;
+}
+header {
+  margin: 30px 0;
+}
+.contenido {
+  padding: 20px;
+}
+.contenido-principal {
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 14px -12px rgba(0, 0, 0, 0.75);
+}
+.presupuesto p {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+.presupuesto p span {
+  font-weight: normal;
+}
+#gastos {
+  margin-bottom: 30px;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 38px;
+  color: white;
+  text-align: center;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  color: #34c3f0;
+  margin-bottom: 30px;
+  font-size: 22px !important;
+  text-align: center;
+}
+.campo {
+  margin-bottom: 2rem;
+}
+.error {
+  text-align: center;
+}
+.alert {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+.alert-primary {
+  color: #004085;
+  background-color: #cce5ff;
+  border-color: #b8daff;
+}
+.alert-success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+.alert-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+.alert-warning {
+  color: #856404;
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+}
+.gastos-realizados {
+  margin-bottom: 2rem;
+}
+.gastos-realizados li {
+  list-style: none;
+  margin-bottom: 0rem;
+  box-shadow: 0px 10px 14px -12px rgba(0, 0, 0, 0.25);
+
+  padding: 1rem 1rem 1rem 2rem;
+}
+.gastos-realizados li:last-of-type {
+  margin-bottom: 0 !important;
+}
+.gastos-realizados li p {
+  display: flex;
+  color: #424242;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+.gastos-realizados li p .gasto {
+  background-color: #34c3f0;
+  font-weight: 400;
+  border-radius: 2px;
+  padding: 0.5rem 2rem;
+  color: white;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.contenedor {
+  background-color: #34c3f0;
+  color: white;
+  padding: 1rem;
+  border-radius: 4px;
+  box-shadow: 0px 10px 14px -12px rgba(0, 0, 0, 0.25);
+  margin-bottom: 3rem;
 }
